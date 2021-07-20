@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ci", "ci", "{544C2B8A-A389-4DD7-8AAE-AA89AC4A9DFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4E7D418C-7337-4232-8BBE-BAA8AA6DC4AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF444D81-6778-4D01-9ACD-68B656CFCA29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{082040E9-4625-4520-87DF-3401E6A9ED21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApp.Api", "WeatherApp.Api\WeatherApp.Api.csproj", "{12CB8732-7F78-4138-9995-29304B103EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Api.UnitTests", "WeatherApp.Api.Unit\WeatherApp.Api.UnitTests.csproj", "{77668160-2E4A-4889-8DDB-B403B03C773A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12CB8732-7F78-4138-9995-29304B103EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CB8732-7F78-4138-9995-29304B103EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CB8732-7F78-4138-9995-29304B103EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CB8732-7F78-4138-9995-29304B103EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77668160-2E4A-4889-8DDB-B403B03C773A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77668160-2E4A-4889-8DDB-B403B03C773A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77668160-2E4A-4889-8DDB-B403B03C773A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77668160-2E4A-4889-8DDB-B403B03C773A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12CB8732-7F78-4138-9995-29304B103EE6} = {AF444D81-6778-4D01-9ACD-68B656CFCA29}
+		{77668160-2E4A-4889-8DDB-B403B03C773A} = {082040E9-4625-4520-87DF-3401E6A9ED21}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02A4B5AC-A6C3-4B84-80C5-9A5276E609FE}
+	EndGlobalSection
+EndGlobal
